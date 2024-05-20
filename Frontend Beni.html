@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Frontend Beni.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- FontAwesome für Icons -->
+</head>
+<body>
+<div id="wrapper">
+    <nav id="sidebar" class="active">
+        <div class="sidebar-header">
+            <strong>MT</strong>
+            <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <i id="toggleIcon" class="fas fa-bars"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled components">
+            <li class="active"><a href="#homeSubmenu"><i class="fas fa-home"></i> Dashboard</a></li>
+            <li><a href="#"><i class="fas fa-laptop-code"></i> UI Kit</a></li>
+            <li><a href="#"><i class="fas fa-layer-group"></i> Components</a></li>
+            <li><a href="#"><i class="fas fa-wpforms"></i> Forms</a></li>
+            <li><a href="#"><i class="fas fa-chart-bar"></i> Charts</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <header>
+            <!-- User profile section -->
+            <button class="user-profile-btn">
+                <img src="user-avatar.png" alt="Benutzer">
+                <i class="fas fa-user"></i> <span>Benutzer Benutzername</span>
+            </button>
+        </header>
+
+        <div class="container">
+            <h2>Welcome !</h2>
+            <div class="box" style="background-color: #555;">Box 1</div>
+            <div class="box" style="background-color: #666;">Box 2</div>
+            <div class="box" style="background-color: #777;">Box 3</div>
+        </div>
+    </div>
+</div>
+<script src="Frontend Beni.js"></script>
+</body>
+</html>
