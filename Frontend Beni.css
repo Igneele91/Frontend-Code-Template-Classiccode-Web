@@ -22,7 +22,7 @@ body {
 
 #sidebar.active {
     min-width: 80px;  /* Sidebar auf 10px reduziert, wenn aktiv */
-    max-width: 250px;  /* Gleiche Änderung für max-width */
+    max-width: 250px;  /* Gleiche Änderung für max-width  */
 }
 
 #sidebar strong {
